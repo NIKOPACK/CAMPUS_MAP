@@ -8,7 +8,7 @@
 
 ### 前提条件
 
-- 确保校园图片已放置在正确位置：`/home/nikopack/develop/test/campus_map/Map_of_Old_Campus.jpg`
+- 确保校园图片已放置在正确位置
 - 现代网页浏览器（Chrome、Firefox、Edge 等）
 
 ### 运行方法
