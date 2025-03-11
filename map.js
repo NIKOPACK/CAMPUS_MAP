@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const mapImage = '/home/nikopack/develop/test/campus_map/Map_of_Old_Campus.jpg';
+    const mapImage = 'Map_of_Old_Campus.jpg';
     let addingMarker = false;
     let markers = [];
     let imgWidth, imgHeight, map;
