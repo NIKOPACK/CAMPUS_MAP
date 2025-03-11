@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>校园地图</title>
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>校园交互地图</h1>
+            <div class="controls">
+                <button id="add-marker">添加标注</button>
+                <button id="clear-markers">清除所有标注</button>
+                <button id="gps-locate">定位我</button>
+            </div>
+        </div>
+        <div id="map"></div>
+        <div class="footer">
+            <p>点击"添加标注"按钮，然后点击地图上的位置来添加标注。点击标注可以编辑信息。</p>
+        </div>
+    </div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <!-- Custom script -->
+    <script src="map.js"></script>
+</body>
+</html>
